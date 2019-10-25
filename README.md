@@ -1,3 +1,7 @@
+This is a fork where the player has infinite health.
+
+---
+
 # Aim and Shoot
 
 ![artwork](artwork.png)
