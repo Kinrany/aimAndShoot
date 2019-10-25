@@ -66,7 +66,9 @@ class Bullet {
 					
 					this.targets[i].speed.y += Math.sin(this.angle) * 0.1;
 					
-					this.targets[i].health -= this.damage;
+					if (this.targets[i].ai)
+					
+						this.targets[i].health -= this.damage;
 					
 					this.isGone = true;
 					
