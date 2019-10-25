@@ -166,7 +166,9 @@ class Player {
 			
 			this.selfInjury += 1;
 			
-			this.health -= 0.25;
+			if (this.ai)
+			
+				this.health -= 0.25;
 			
 		}
 			
@@ -180,7 +182,9 @@ class Player {
 			
 			this.selfInjury += 1;
 			
-			this.health -= 0.25;
+			if (this.ai)
+			
+				this.health -= 0.25;
 			
 		}
 		
