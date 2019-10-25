@@ -1,5 +1,7 @@
 This is a fork where the player has infinite health.
 
+https://kinrany.github.io/aimAndShoot/
+
 ---
 
 # Aim and Shoot
