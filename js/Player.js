@@ -304,6 +304,8 @@ class Player {
 
 	
 	showHealthBar(){
+		
+		if (!this.ai) return;
 	
 		c.fillStyle = "red";
 		
